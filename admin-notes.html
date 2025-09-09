@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin Notes — PADLOCK GH</title>
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6;padding:24px;max-width:900px;margin:auto;background:#0b1220;color:#e5e7eb}
+    code,pre{background:#0f172a;border:1px solid #273244;border-radius:8px;padding:10px;display:block;overflow:auto}
+    .tip{background:#0f172a;border-left:4px solid #38bdf8;padding:12px;border-radius:8px;margin:16px 0}
+    a{color:#38bdf8}
+  </style>
+</head>
+<body>
+  <h1>Admin Notes — PADLOCK GH</h1>
+  <p class="tip">Hidden page: open directly at <code>/admin-notes.html</code>. Blocked from search engines.</p>
+  <h2>Promo Banner</h2>
+  <p>Edit text inside <code>index.html</code> (the <code>#promo</code> block). Users can dismiss it; we remember this via <code>localStorage</code>.</p>
+  <h2>Order Tracker</h2>
+  <p>Tracker is a client‑side demo. It shows placeholder statuses based on the last character of the 4‑digit code. To make it real, add a lightweight backend or Paystack webhook and query by reference+phone.</p>
+  <h2>Prices & Paystack</h2>
+  <pre><code>script.js → PRICES (GHS numbers inside labels)
+PAYSTACK_PUBLIC_KEY (top of script.js) — currently set to your live key
+PHONE / SMS_NUMBER — 0534706233</code></pre>
+  <h2>Deploy</h2>
+  <p>Upload all files to GitHub Pages or Netlify. No build step required.</p>
+</body>
+</html>
